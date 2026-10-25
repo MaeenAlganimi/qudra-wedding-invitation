@@ -5,7 +5,7 @@ import { respond } from './server/gemini';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), 'GEMINI_API_KEY');
   if (env.GEMINI_API_KEY) process.env.GEMINI_API_KEY = env.GEMINI_API_KEY;
-  return { plugins: [react(), tsconfigPaths(), { name: 'qudra-api', configureServer(server) {
+  return { plugins: [react(), tsconfigPaths(), { name: 'invite-api', configureServer(server) {
     server.middlewares.use('/api/invitation', async (req, res) => {
       res.setHeader('Content-Type', 'application/json');
       if (req.method !== 'POST') { res.statusCode = 405; res.end('{}'); return; }

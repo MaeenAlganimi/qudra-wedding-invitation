@@ -1,8 +1,8 @@
-# Qudra Invitations: AI Digital Invitation Generator
+# Invitations: AI Digital Invitation Generator
 
 Describe your event and Gemini writes bilingual (EN/AR) invite copy and a theme. Includes RSVP and AI-summarised guest notes.
 
-A demo template by **Qudra Labs**. Bilingual English / Arabic (RTL), with AI from Google Gemini (`gemini-2.5-flash`) called server-side only.
+A demo template by **Maeen Alganimi**. Bilingual English / Arabic (RTL), with AI from Google Gemini (`gemini-2.5-flash`) called server-side only.
 
 | English | Arabic (RTL) | Mobile |
 |---|---|---|
