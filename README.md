@@ -1,5 +1,7 @@
 # Invitations: AI Digital Invitation Generator
 
+**Live demo:** https://wedding-invitation-rsvp-i0v2.onrender.com (free instance; first load can take ~50 s to wake)
+
 Describe your event and Gemini writes bilingual (EN/AR) invite copy and a theme. Includes RSVP and AI-summarised guest notes.
 
 A demo template by **Maeen Alganimi**. Bilingual English / Arabic (RTL), with AI from Google Gemini (`gemini-2.5-flash`) called server-side only.
